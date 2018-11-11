@@ -3,7 +3,9 @@
 """
 Created on Sun Nov 11 11:24:59 2018
 
-@author: magalidrumare
+author: magalidrumare
+copyright Udemy Artificial Intelligence for Business. 
+
 """
 
 # Importing the librairies 
