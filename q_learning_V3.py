@@ -115,6 +115,7 @@ def route(starting_location, ending_location):
 
 # PART 3 : GOING TO PRODUCTION 
 def best_route(starting_location, intermediary_location, ending_location):
+  # avoid the redundancy of the state [1:]
    return route(starting_location, intermediary_location)+ route(intermediary_location, ending_location)[1:]
 
 
